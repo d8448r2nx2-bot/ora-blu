@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ORA BLU — Contact</title>
+  <meta name="description" content="Kontakt ORA BLU — Booking & Management" />
+
+  <link href="https://db.onlinewebfonts.com/c/9366bd460113d8bf675fd2bdfe1ce764?family=The+Seasons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-contact">
+
+  <a class="skip-link" href="#contact-main">Zum Inhalt springen</a>
+
+  <header class="site-header" role="banner">
+    <nav class="navbar" role="navigation" aria-label="Hauptnavigation">
+      <div class="nav-inner container">
+        <a class="brand" href="index.html" aria-label="ORA BLU Startseite">
+          <img src="assets/logo-invert.png" alt="ORA BLU Logo" class="brand-logo" />
+        </a>
+
+        <button class="nav-toggle" aria-controls="main-nav" aria-expanded="false" aria-label="Menü öffnen">
+          <span class="hamburger" aria-hidden="true"></span>
+        </button>
+
+        <ul id="main-nav" class="nav-links" role="menubar">
+          <li role="none"><a role="menuitem" href="index.html">Home</a></li>
+          <li role="none"><a role="menuitem" href="bio.html">Bio</a></li>
+          <li role="none"><a role="menuitem" href="videos.html">Videos</a></li>
+          <li role="none"><a role="menuitem" href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main id="contact-main">
+    <section class="contact-page" aria-labelledby="contact-heading">
+      <div class="container contact-inner">
+        <h1 id="contact-heading">Contact</h1>
+        <p class="contact-text">Book us for a show or whatever!</p>
+
+        <p class="contact-mail">
+          <a href="mailto:orablu.management@gmail.com">orablu.management@gmail.com</a>
+        </p>
+
+        <div class="contact-extra">
+          <p>Booking-Anfragen: bitte mit Datum, Ort und Gage.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
