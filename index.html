@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ORA BLU — Home</title>
+  <meta name="description" content="ORA BLU — dreamy, danceable sound from Berlin. Pop · Hip-Hop · Funk · R'n'B. Bookings & videos." />
+  <meta name="author" content="ORA BLU" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="ORA BLU — Home" />
+  <meta property="og:description" content="ORA BLU — dreamy, danceable sound from Berlin." />
+  <meta property="og:image" content="assets/og-image.jpg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourdomain.tld" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Font -->
+  <link href="https://db.onlinewebfonts.com/c/9366bd460113d8bf675fd2bdfe1ce764?family=The+Seasons" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-landing">
+
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+  <header class="site-header" role="banner">
+    <nav class="navbar" role="navigation" aria-label="Hauptnavigation">
+      <div class="nav-inner container">
+        <a class="brand" href="index.html" aria-label="ORA BLU Startseite">
+          <img src="assets/logo-invert.png" alt="ORA BLU Logo" class="brand-logo" />
+        </a>
+
+        <button class="nav-toggle" aria-controls="main-nav" aria-expanded="false" aria-label="Menü öffnen">
+          <span class="hamburger" aria-hidden="true"></span>
+        </button>
+
+        <ul id="main-nav" class="nav-links" role="menubar">
+          <li role="none"><a role="menuitem" href="index.html">Home</a></li>
+          <li role="none"><a role="menuitem" href="bio.html">Bio</a></li>
+          <li role="none"><a role="menuitem" href="videos.html">Videos</a></li>
+          <li role="none"><a role="menuitem" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="landing" aria-label="Landing">
+      <picture class="landing-media">
+        <!-- poster for small/slow connections -->
+        <source media="(max-width:700px)" srcset="assets/landing-poster-small.jpg">
+        <img src="assets/landing-poster.jpg" alt="ORA BLU background poster" class="landing-poster" />
+      </picture>
+
+      <!-- Background video (autoplay muted). Use poster fallback above. -->
+      <video class="landing-video" autoplay muted loop playsinline preload="metadata" poster="assets/landing-poster.jpg" aria-hidden="true">
+        <source src="assets/ORA_BLU_-_CARRY_ME_MASTER_Kopie.webm" type="video/webm">
+        <source src="assets/ORA_BLU_-_CARRY_ME_MASTER_Kopie.mp4" type="video/mp4">
+        <!-- If video fails, poster image will show -->
+      </video>
+
+      <div class="landing-content container">
+        <img src="assets/logo-invert.png" alt="ORA BLU Logo" class="landing-logo" />
+
+        <p class="landing-tagline">Dreamy. Danceable. Berlin.</p>
+
+        <div class="landing-socials" aria-label="Soziale Medien">
+          <a href="https://www.instagram.com/orablu_band/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <img src="assets/instagram.png" alt="" class="social-img" />
+          </a>
+          <a href="https://www.tiktok.com/@orablu_music" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+            <img src="assets/tiktok.png" alt="" class="social-img" />
+          </a>
+          <a href="https://www.youtube.com/@orablu" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+            <img src="assets/youtube.png" alt="" class="social-img" />
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
