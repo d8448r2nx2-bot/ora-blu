@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ORA BLU — Bio</title>
+  <meta name="description" content="Bio von ORA BLU — Berliner Newcomerband mit Pop, Hip-Hop, Funk & R'n'B Einflüssen." />
+
+  <link href="https://db.onlinewebfonts.com/c/9366bd460113d8bf675fd2bdfe1ce764?family=The+Seasons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-bio">
+
+  <a class="skip-link" href="#bio-content">Zum Inhalt springen</a>
+
+  <header class="site-header" role="banner">
+    <nav class="navbar" role="navigation" aria-label="Hauptnavigation">
+      <div class="nav-inner container">
+        <a class="brand" href="index.html" aria-label="ORA BLU Startseite">
+          <img src="assets/logo-invert.png" alt="ORA BLU Logo" class="brand-logo" />
+        </a>
+
+        <button class="nav-toggle" aria-controls="main-nav" aria-expanded="false" aria-label="Menü öffnen">
+          <span class="hamburger" aria-hidden="true"></span>
+        </button>
+
+        <ul id="main-nav" class="nav-links" role="menubar">
+          <li role="none"><a role="menuitem" href="index.html">Home</a></li>
+          <li role="none"><a role="menuitem" href="bio.html" aria-current="page">Bio</a></li>
+          <li role="none"><a role="menuitem" href="videos.html">Videos</a></li>
+          <li role="none"><a role="menuitem" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main id="bio-content">
+    <section class="bio-page" aria-labelledby="bio-heading">
+      <div class="container">
+        <article class="bio-panel" role="article" aria-label="Bandbiographie">
+          <h1 id="bio-heading" class="bio-title">ORA BLU</h1>
+
+          <div class="bio-text-block">
+            <p>
+              "ORA BLU" ist der italienische Begriff für die blaue Stunde – jene magische Phase kurz
+              vor Sonnenauf- oder -untergang, wenn die Welt in ein weiches, blaues Licht getaucht ist.
+              Die Berliner Newcomerband ORA BLU benannte sich nach dieser Tagesphase – eine perfekte
+              Metapher für ihren verträumt-tanzbaren Sound.
+            </p>
+
+            <p>
+              Die drei Bandmitglieder Marlene (Vocals & Bass), Kai (Vocals & Gitarre) und Henrik
+              (Drums & Production) verschmelzen Pop, Hip-Hop, Funk und R'n'B mit Indie-Elementen zu
+              einem einzigartigen Soundscape, der zum Tanzen, Grooven und Fühlen einlädt.
+            </p>
+
+            <p>
+              ORA BLU beweist, dass unterschiedliche Stile nicht trennen müssen, sondern sich
+              ergänzen können. Mit sicherem Gespür entwickeln sie etwas Neues — mal erinnert ihr
+              Klang an MY BABY, manchmal an Bonobo oder Chet Faker, aber stets bleibt es ihre
+              eigene Klangwelt.
+            </p>
+
+            <p>
+              Die Band steht vor einer spannenden Zukunft: Roadtrips mit passender Musik,
+              stimmungsvolle Konzerte und warme Sommernächte voller ORA BLU-Sound.
+            </p>
+
+            <p class="bio-quote"><strong>— Vanessa Sonnenfroh</strong></p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
